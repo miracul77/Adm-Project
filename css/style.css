@@ -154,17 +154,7 @@ body {
 }
 .main-part {
   display: grid;
-  grid-template-columns: 1fr max-content 14rem max-content 1fr;
-}
-@media only screen and (max-width: 1070px) {
-  .main-part {
-    grid-template-columns: 1fr max-content 6rem max-content 1fr;
-  }
-}
-@media only screen and (max-width: 860px) {
-  .main-part {
-    grid-template-columns: 3rem max-content 3rem 70% 1fr;
-  }
+  grid-template-columns: 1fr max-content 14rem 30% 1fr;
 }
 .main-part__info {
   margin: 9.5rem 0 0 0;
