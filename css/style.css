@@ -18,6 +18,11 @@ html {
     font-size: 40%;
   }
 }
+@media only screen and (max-width: 740px) {
+  html {
+    font-size: 30%;
+  }
+}
 img {
   max-width: 100%;
   height: auto;
@@ -195,6 +200,11 @@ body {
 @media only screen and (max-width: 860px) {
   .main-part__img {
     width: 73%;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .main-part__img {
+    width: 63%;
   }
 }
 .detail {
@@ -485,8 +495,8 @@ body {
 }
 @media only screen and (max-width: 860px) {
   .estate {
-    padding: 14rem 0 0 0;
-    column-gap: 3rem;
+    padding: 14rem 0 0 9rem;
+    column-gap: 7rem;
   }
 }
 @media only screen and (max-width: 740px) {
@@ -502,7 +512,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
 }
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 860px) {
   .buildings {
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
     gap: 7rem 3rem;
@@ -521,7 +531,7 @@ body {
 .building__img {
   height: 17rem;
 }
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 860px) {
   .building__img {
     position: relative;
     left: 25%;
